@@ -43,8 +43,8 @@ const FavSchema = new mongoose.Schema({
     description: String,
     url: String
   }],
-  userId: {
-    type: mongoose.Schema.Types.ObjectId,
+  email: {
+    type: String,
     ref: 'User',
     required: true
   }
